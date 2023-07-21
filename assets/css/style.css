@@ -1,3 +1,8 @@
+*{
+    text-decoration: none;
+    outline: none;
+}
+
 header {
     width: 100%;
     border: 1px solid white;
@@ -608,7 +613,6 @@ footer {
 }
 ::placeholder{
     color: grey;
-    padding-left: 20px;
     font-size: larger;
 }
 .button-for-input-footer{
@@ -720,4 +724,177 @@ footer {
 }
 .kurs-a2{
     text-decoration: none;
+}
+.for-header1:hover{
+    box-shadow: 2px 2px 4px gray;
+    transition: all 0.25s ease-out;
+}
+
+
+
+
+/*Daxil ol*/
+
+
+
+
+.daxil-ol-sec{
+    width: 100%;
+    height: 1092px;
+    border: 1px solid white;
+    position: relative;
+}
+.p-for-main-daxil-ol-sec{
+    margin: 100px auto;
+    color: #1B2221;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.container-for-daxil{
+    width: 519px;
+    height: 688px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(1, 94, 100, 0.10);
+    margin: 40px auto;
+    padding: 30px;
+}
+.kvadrat{
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/kvadrat.png);
+    position: absolute;
+    right: 300px;
+    top: 800px;
+}
+.daire1{
+    width: 95px;
+    height: 95px;
+    background-image: url(./img/daire.png);
+    position: absolute;
+    right: 1050px;
+    top: 300px;
+}
+.boy-that-flirts{
+    width: 119px;
+    height: 222px;
+    background-image: url(./img/boys\ that\ flirts\ with\ girl.png);
+    position: absolute;
+    right: 1100px;
+    top: 530px;
+}
+.girl-with-books{
+    width: 114px;
+    height: 120px;
+    background-image: url(./img/girl\ with\ books.png);
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.sign-in-facebook , .sign-in-google{
+    width: 419px;
+    height: 60px;
+    border-radius: 8px;
+    background: #F6F6F7;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-for-google , .icon-for-face{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-for-face{
+    border-radius: 8px 0px 0px 8px;
+    background-color: #395185;
+}
+.icon-for-google{
+    border-radius: 8px 0px 0px 8px;
+    background: #E93E32;
+}
+.input-for-face , .input-for-google{
+    width: 359px;
+    height: 60px;
+    border: 1px solid #F6F6F7;
+    border-radius: 8px;
+    background-color: #F6F6F7;
+    padding-left: 20px;
+}
+.input-for-face:focus-visible{
+    border: 1px solid #F6F6F7;
+}
+.p-for-input-email{
+    color: #1B2221;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.input-email{
+    width: 419px;
+    height: 60px;
+    border-radius: 8px;
+    background: #F6F6F7;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F6F6F7;
+    padding-left: 20px;
+}
+.p-for-input-password{
+    color: #1B2221;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.check-for-sign-in{
+    color: gray;
+    margin-top: 20px;
+}
+.check2{
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #930404;
+}
+.button-sign-in{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background: #008D96;
+    box-shadow: 0px 10px 30px 0px rgba(1, 94, 100, 0.15);
+    color: white;
+    margin: 30px auto;
+}
+.button-sign-in:hover{
+    cursor: pointer;
+    transition: all 0.20s ease-out;
+    scale: 0.95;
+    opacity: 0.92;
+}
+.hesab{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nothing1{
+    margin-left: 10px;
+    margin-top: 10px;
 }

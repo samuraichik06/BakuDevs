@@ -1,0 +1,96 @@
+@media only screen and (max-width: 767px){
+     header{
+        background-image: url(./img/for\ phone\ back.png) !important;
+        width: 100% !important;
+        background-size: cover !important;
+     }
+     .Baku-frame{
+        margin-left: 40px !important;
+     }
+     .jam-menu , .jam-p{
+        display: none;
+     }
+     .heart{
+        margin-left: 50px !important;
+     }
+     .for-header1{
+        margin-left: 70px !important;
+     }
+     .for-kurs{
+        margin-left: 10px !important;
+     }
+     #main-button1{
+        margin-left: 10px !important;
+     }
+     .button1{
+        width: 110px !important;
+     }
+     .cards{
+        display: grid !important;
+        grid-template-columns: 1fr auto !important;
+     }
+     .boy , .ellipse , .shape , .shape2{
+        display: none !important;
+     }
+     .container-for-cards2{
+        display: grid !important;
+        grid-template-columns: auto auto;
+     }
+     .card2 , .card4{
+        margin-left: 50px !important;
+     }
+     .button-for-header{
+        margin-left: 50px !important;
+     }
+     .footer3{
+        display: none !important;
+     }
+     .kvadrat , .daire1 , .girl-with-books , .boy-that-flirts{
+      display: none !important;
+     }
+}
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+    .Baku-frame{
+        margin-left: 40px !important;
+     }
+     .jam-menu , .jam-p{
+        display: none;
+     }
+     .heart{
+        margin-left: 50px !important;
+     }
+     .for-header1{
+        margin-left: 70px !important;
+     }
+     .for-kurs{
+        margin-left: 10px !important;
+     }
+     #main-button1{
+        margin-left: 10px !important;
+     }
+     .button1{
+        width: 110px !important;
+     }
+    .cards{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        justify-content: center !important;
+     }
+     .baku-footer{
+        margin-left: 30px !important;
+     }
+     .lorem-for-footer{
+        margin-left: 30px !important;
+     }
+     .container-for-cards2{
+        display: grid !important;
+        grid-template-columns: auto auto;
+     }
+     .footer3{
+        display: none !important;
+     }
+     .boy , .ellipse , .shape , .shape2{
+        display: none !important;
+     }
+
+}
